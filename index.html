@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar fixed-top" id="navbar-menu">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Recetas ricas y faciles</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Recetas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#manzanita">Tarta de manzana</a></li>
+                          <li><a class="dropdown-item" href="#bizcocho-zanahoria">Bizcocho de zanahoria</a></li>
+                          <li><a class="dropdown-item" href="#helados">helados de yogurt con chocolate y fresas</a></li>
+                        </ul>
+                      </li>
+                  <a class="nav-link" href="#">contactanos</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+</header>
+<body>
+    <!-- titulo -->
+    <h1>Recetas destacadas</h1>
+
+    <!-- recetas destacadas -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="clip-path: inset(0em 5em 0em 5em);">
+            <img src="imagenes/Tarta de manzana.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Tarta de manzana</h5>
+            <p>Esta tarta de manzana con 3 ingredientes es un espectáculo tanto por lo bonita que es, como por lo rápido que se prepara y por su sabor maravilloso. Ya sabes que las tartas de frutas son muy refrescantes y, además, la mermelada la hace aún más refrescante.</p>
+          </div>
+          <div class="carousel-item" style="clip-path: inset(0em 5em 0em 5em);">
+            <img src="imagenes/helados de chocolate con fresa.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Helados de yogurt con fresas y chocolate</h5>
+                <p>Llega el calor y qué mejor que un helado para refrescarte. Estos helados de yogur son pura cremosidad. Necesitas pocos ingredientes y quedan de escándalo.</p>
+              </div>
+          </div>
+          <div class="carousel-item" style="clip-path: inset(0em 5em 0em 5em);">
+            <img src="imagenes/bizchocho de zanahoria.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Bizcocho de zanahoria</h5>
+                <p>Este bizcocho de zanahoria queda muy jugoso y con una miga superesponjosa. Es ideal para desayunos y meriendas y puedes cubrirlo con una cobertura de queso crema y darle un punto más original.</p>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- recetas con link -->
+      <div class="card-group">
+  <div class="card">
+    
+    <img src="imagenes/Tarta de manzana.jpg" class="card-img-top" id= "manzanita" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tarta de manzana</h5>
+      <p class="card-text"> Ya sabes que las tartas de frutas son muy refrescantes y, además, la mermelada la hace aún más refrescante. Ahora que es verano y los niños están de vacaciones, seguro que les encanta ayudarte a colocar las láminas de manzana.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><a style="text-decoration:none;" href="">Clik aqui para ver la receta</a></small>
+    </div>
+  </div>
+  <div class="card">
+
+    <img src="imagenes/bizchocho de zanahoria.jpg" class="card-img-top" id="bizcocho-zanahoria" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Bizcocho de zanahoria</h5>
+      <p class="card-text">Si eres tan fan como yo de los bizcochos, te va a encantar. Prepararlo es muy sencillo y necesitas pocos ingredientes que seguro tienes en tu cocina. Puedes prepararlo también con harina integral y quedará igual de rico.</p>
+    </div>
+    <div class="card-footer">
+        <small class="text-muted"><a style="text-decoration:none;" href="">Clik aqui para ver la receta</a></small>
+    </div>
+  </div>
+  <div class="card">
+    
+    <img src="imagenes/helados de chocolate con fresa.jpg" class="card-img-top" id="helados" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Helados de chocolate</h5>
+      <p class="card-text">La cobertura de chocolate les da un punto de sabor riquísimo. Además, qué bonitos quedan. Ideales como postre o merienda porque además son muy ligeros. No renuncies este verano a comer helados y qué mejor forma que prepararlos uno mismo en casa.</p>
+    </div>
+    <div class="card-footer">
+        <small class="text-muted"><a style="text-decoration:none;" href="">Clik aqui para ver la receta</a></small>
+    </div>
+  </div>
+</div>
+</body>
+<footer>
+    <div class="text-center text-dark p-3"  style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+</footer>
+</html>

@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    padding-top: 1.5em;
+}
+@media (max-width: 850px){
+    h1{text-align: center;
+    padding-top: 1.7em;
+    }
+}
+.card{
+    margin: 2.5em;
+    
+}
+
+footer{
+    margin-top: 2em;
+}
+
